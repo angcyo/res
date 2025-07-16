@@ -3,6 +3,7 @@ cd $(dirname $0)
 pwd
 echo ...do...
 
+git remote -v
 git add .
 echo
 git commit -a -m "+ res"
